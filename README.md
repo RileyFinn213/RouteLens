@@ -23,7 +23,7 @@
 
 ### 分流信息面板
 
-![RouteLens 分流记录面板（隐私已遮盖）](docs/images/route-panel-redacted.png)
+![RouteLens 分流记录面板（隐私已遮盖）](docs/images/route-panel-example-v2.png)
 
 基于实际使用截图脱敏：节点仅保留地区代码 SG，时间与连接远端分别替换为示例时间和文档保留地址。其余界面内容保留；这些替换值仅作展示，不代表真实测量。原始截图及修改批注未上传。
 
