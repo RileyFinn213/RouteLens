@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "RouteLens · 线路透镜",
+  "version": "2.3.0",
+  "description": "专为 Surge 打造的轻量线路面板，查看当前网站的分流规则、实际节点与连接记录。",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage"
+  ],
+  "host_permissions": [
+    "http://127.0.0.1/*",
+    "http://localhost/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "RouteLens · 查看当前网站线路",
+    "default_icon": {
+      "16": "icon128.png",
+      "32": "icon128.png",
+      "48": "icon128.png",
+      "128": "icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "128": "icon128.png"
+  }
+}
